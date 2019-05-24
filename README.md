@@ -8,8 +8,7 @@ pip3 install -r requirements.txt
 
 Afterwards you can run the training and generation of the submission file like this:
 ```
-python3 run.py /home/i/data/train.csv /home/i/data
-/test.csv /home/i/results_directory/
+python3 run.py /home/i/data/train.csv /home/i/data/test.csv /home/i/results_directory/
 ```
 
 The results (in kaggle submission format) will be saved to `submission.csv` and the trained model to `model.dat`
